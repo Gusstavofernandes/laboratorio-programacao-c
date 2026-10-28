@@ -12,7 +12,7 @@ int main() {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             printf("%d\t", matriz[i][j]);
-            soma += matriz[i][j]; // Acumula o valor do elemento atual
+            soma += matriz[i][j]; 
         }
         printf("\n");
     }
