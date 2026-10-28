@@ -3,7 +3,6 @@
 int main() {
     int matriz[2][2];
 
-    // Leitura dos valores
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             printf("Digite o valor para a posicao [%d][%d]: ", i, j);
@@ -11,7 +10,6 @@ int main() {
         }
     }
 
-    // Exibição da matriz em formato de tabela
     printf("\nMatriz digitada:\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
